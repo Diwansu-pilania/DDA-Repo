@@ -1,0 +1,10 @@
+# DDR Report Generator — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+pymupdf>=1.23.0        # PDF parsing and image extraction (import as fitz)
+Pillow>=10.0.0         # Image processing and format conversion
+python-docx>=1.1.0     # DOCX report generation
+
+# OpenRouter is called via Python's built-in urllib — no extra SDK needed.
+# Get a free key at https://openrouter.ai and pass it with --api-key
+# or set the OPENROUTER_API_KEY environment variable.
