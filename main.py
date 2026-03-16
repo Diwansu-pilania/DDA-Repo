@@ -1,19 +1,3 @@
-"""
-main.py
--------
-DDR Report Generation Pipeline
-
-Usage:
-    python main.py --inspection <path> --thermal <path> [--output <path>] [--api-key <key>]
-
-API key auto-detection:
-    sk-or-*   → treated as OpenRouter key  (set as OPENROUTER_API_KEY)
-    sk-ant-*  → treated as Anthropic key   (set as ANTHROPIC_API_KEY)
-
-Environment variables also work:
-    OPENROUTER_API_KEY=sk-or-...  python main.py ...
-    ANTHROPIC_API_KEY=sk-ant-...  python main.py ...
-"""
 
 import argparse
 import os
